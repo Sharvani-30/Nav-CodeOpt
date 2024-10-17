@@ -1,0 +1,66 @@
+.navbar {
+    width: 100%;
+    background-color: rgb(6, 6, 93); /* Navy blue background */
+    color: white;
+    padding: 10px 20px;
+    padding-left: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+.sidebar {
+    width: 0;
+    height: 100%;
+    background-color: rgb(6, 6, 93); /* Navy blue background */
+    position: fixed;
+    top: 50px; /* Below the navbar */
+    left: 0;
+    transition: width 0.3s ease-in-out; /* Smooth transition */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    z-index: 999; /* Sidebar appears under the navbar but above the rest */
+}
+
+.sidebar.active {
+    width: 250px; /* Width when active */
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.sidebar-content a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.sidebar-content a:hover {
+    background-color: rgb(239, 239, 245); /* Light background on hover */
+    color: black;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
