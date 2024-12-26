@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-const MONGO_URI = 'mongodb+srv://pardiv1:<db_pass>@cluster0.jimo5.mongodb.net/CodeOptimization?retryWrites=true&w=majority&appName=Cluster0'; // Replace with your MongoDB U
+const MONGO_URI = 'mongodb+srv://username:<db_pass>@cluster0.jimo5.mongodb.net/CodeOptimization?retryWrites=true&w=majority&appName=Cluster0'; // Replace with your MongoDB U
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('Connected to MongoDB'))
     .catch(err => console.error('MongoDB connection error:', err));
