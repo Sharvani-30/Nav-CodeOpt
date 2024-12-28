@@ -1,5 +1,13 @@
-# codeOptimisationGenAI
+# CodeOptimisationGenAI
 Design and develop a web application that allows users to input programming-related queries in languages such as C, C++, Java, Python, and HTML. The web app should generate optimized code solutions that focus on reducing operational costs.
+
+## Architecture Diagram
+
+![Architecture Diagram](./assets/architecture_diagram.png)
+
+The diagram above illustrates the high-level architecture of the project, showing the interaction between the frontend and backend.
+
+---
 
 ## **Setup Instructions**
 
