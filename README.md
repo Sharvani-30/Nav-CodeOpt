@@ -54,18 +54,19 @@ The backend of this project is built using **Flask** and is configured to run vi
 
 ---
 
+### **Frontend UI Images**
+---
+![Architecture Diagram](./assets/UI_Sample.png)
 
-Team G210 PS 3-1
-members:
+## Team Members
 
-Akshay nagamalla
+Meet the amazing team behind this project:
 
-Srinidhi 
 
-Sharvani
+| ![Akshay Nagamalla](https://avatars.githubusercontent.com/u/138714091?v=4) | ![Hemanth Kumar](https://avatars.githubusercontent.com/u/76953098?v=4) | ![Srinidhi](https://avatars.githubusercontent.com/u/157091639?v=4) |  
+|:---:|:---:|:---:|  
+| [Akshay Nagamalla](https://github.com/AkshayNagamalla) | [Hemanth Kumar](https://github.com/hemanth123) | [Srinidhi](https://github.com/Srinidhi-Chodavarapu) |  
 
-Vaishnavi
-
-Hemanth
-
-pardiv
+| ![Sharvani](https://avatars.githubusercontent.com/u/139137307?v=4) | ![Vaishnavi](https://avatars.githubusercontent.com/u/180526899?v=4) | ![Pardiv](https://avatars.githubusercontent.com/u/139619104?v=4) |  
+|:---:|:---:|:---:|  
+| [Sharvani](https://github.com/Sharvani-30) | [Vaishnavi](https://github.com/vaishnavichikkudu) | [Pardiv Kamishetty](https://github.com/pardivkamishetty) |  
