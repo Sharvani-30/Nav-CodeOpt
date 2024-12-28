@@ -12,6 +12,7 @@ The diagram above illustrates the high-level architecture of the project, showin
 ## **Setup Instructions**
 
 ### **Frontend**
+---
 
 1. Navigate to the `frontend` directory:
    ```bash
@@ -22,8 +23,8 @@ The diagram above illustrates the high-level architecture of the project, showin
 3. Start the development server:
    ```bash
    npm run dev
-## *Backend Setup Instructions*
-
+### **Backend**
+---
 The backend of this project is built using **Flask** and is configured to run via a Jupyter Notebook.
 
 ### **Steps to Start the Backend**
