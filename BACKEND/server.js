@@ -91,29 +91,6 @@ app.post('/save-code', async (req, res) => {
     }
 });
 
-// app.post('/save-code', async (req, res) => {
-//     const { email, code } = req.body;
-//     console.log(email, code);
-//     // console.log(email,generated_code)
-//     try {
-//         const newCode = new Code({ email, code });
-//         console.log(newCode);
-//         await newCode.save();
-//         // const user = await Code.create({ email, generated_code });
-
-//         if () {
-//     return res.status(200).json({ message: 'Code Saved' });
-//         } else {
-//             return res.status(401).json({ message: err.message });
-//         }
-//     } catch (err) {
-//         console.error(err);
-//         res.status(500).json({ message: 'Server error' });
-//     }
-// });
-
-
-
 app.get('/', (req, res) => {
     res.send('<h1>Data is saved in MongoDB</h1>');
 });
