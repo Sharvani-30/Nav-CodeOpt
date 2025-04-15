@@ -1,0 +1,26 @@
+/* index.css or App.css */
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-animation 4s ease infinite;
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+    animation: blink 0.7s step-end infinite;
+  }
+  
